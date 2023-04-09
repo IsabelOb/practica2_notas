@@ -15,17 +15,17 @@ public class notas {
          * Nota preponderada de la uf correspondiente
          */
 	double acu1, acu2, acu3, nota_def;
-	//utilizames ecaner para poder introducir datos
+	//utilizames scanner para poder introducir datos
 	Scanner entrada_datos = new Scanner(System.in);
 	
-	///vamos ca crear un metodo para ingresar 
+	///vamos a crear un metodo para ingresar 
         
     /**
      * Método para introducir las notas obtenidas
      */
 	
 	public void IngresaNotas() {
-		//cuando ejeuctamos este metodo lo primnero que queremos es que nos pida notas
+		//cuando ejecutamos este metodo lo primero que queremos es que nos pida notas
 		System.out.println("ingrese las notas del estudiante");
 		
 		System.out.print("ingrese nota 1: ");
@@ -45,7 +45,7 @@ public class notas {
 	
 	}
 	
-	// metodo para comprobar bien entroduccion de notas
+	// metodo para comprobar bien introduccion de notas
 
     /**
      * Método que comprueba la introducción correcta de las notas, no debe ser mayor de 10
@@ -89,7 +89,7 @@ public class notas {
 		
 		nota_def = acu1 + acu2+ acu3;
 		
-		//hasta aqui la tenemos calculada peor no la mostramos
+		//hasta aqui la tenemos calculada pero no la mostramos
 	}
 
     /**
@@ -131,7 +131,7 @@ public class notas {
      * @param args Este parámetro es un arreglo de cadenas de caracteres que se puede pasar al método main
      */
     public static void main(String[] args) {
-		// creamos mecanimos para llamar a cualquier metodo fuero de la clase
+		// creamos mecanismos para llamar a cualquier metodo fuera de la clase
 		notas fc= new notas();
 		
 		fc.IngresaNotas();
