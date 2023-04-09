@@ -24,7 +24,7 @@ public class notas {
      * Método para introducir las notas obtenidas
      */
 	
-	public void IngresaNotas() {
+	public void IngresarNotas() {
 		//cuando ejecutamos este metodo lo primero que queremos es que nos pida notas
 		System.out.println("ingrese las notas del estudiante");
 		
@@ -134,7 +134,7 @@ public class notas {
 		// creamos mecanismos para llamar a cualquier metodo fuera de la clase
 		notas fc= new notas();
 		
-		fc.IngresaNotas();
+		fc.IngresarNotas();
 		
 		fc.comprobacion();
 		
