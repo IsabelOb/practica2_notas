@@ -51,7 +51,7 @@ public class notas {
      * Método que comprueba la introducción correcta de las notas, no debe ser mayor de 10
      */
 	
-	public void comprobarcion(){
+	public void comprobacion(){
 		
 		if (uf1>10) {
 			System.out.println(" nota1 mal introducida");
@@ -136,7 +136,7 @@ public class notas {
 		
 		fc.IngresaNotas();
 		
-		fc.comprobarcion();
+		fc.comprobacion();
 		
 
 		fc.Calculonotas();
