@@ -6,7 +6,7 @@ import java.util.Scanner;
  * @author Isabel
  */
 public class notas {
-	//declaramos la variables que nos hacen falta
+	//declaramos las variables que nos hacen falta
         /**
          * Nota de la uf correspondiente
          */
@@ -15,7 +15,7 @@ public class notas {
          * Nota preponderada de la uf correspondiente
          */
 	double acu1, acu2, acu3, nota_def;
-	//utilizames scanner para poder introducir datos
+	//utilizamos scanner para poder introducir datos
 	Scanner entrada_datos = new Scanner(System.in);
 	
 	///vamos a crear un metodo para ingresar 
@@ -45,7 +45,7 @@ public class notas {
 	
 	}
 	
-	// metodo para comprobar bien introduccion de notas
+	// metodo para comprobar correcta introduccion de notas
 
     /**
      * Método que comprueba la introducción correcta de las notas, no debe ser mayor de 10
@@ -116,7 +116,7 @@ public class notas {
     public void aprobado() {
 			
 			if(nota_def<5 && nota_def>=0) {
-				System.out.println("suspendio");
+				System.out.println("suspenso");
 			}else {
 				if (nota_def>=5 && nota_def<=10 ) {
 				System.out.println("aprobado");
